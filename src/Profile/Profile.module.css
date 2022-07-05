@@ -1,0 +1,66 @@
+.profile {
+  display: block;
+  width: 320px;
+  margin: 0 auto;
+  margin-bottom: 10px;
+
+  height: auto;
+  padding: 10px;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
+    rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+.description {
+  margin-bottom: 10px;
+}
+.imgcontainer {
+  width: 150px;
+  margin: 0 auto;
+}
+.avatar {
+  width: 150px;
+  border-radius: 50%;
+  height: auto;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset,
+    rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+.name {
+  font-size: 16px;
+  font-weight: 700;
+  text-align: center;
+  color: black;
+  padding: 0;
+  margin: 0;
+}
+.tag,
+.location,
+.label {
+  text-align: center;
+  color: grey;
+  padding: 0;
+  margin: 0;
+}
+.stats {
+  width: 300px;
+  margin: 0 auto;
+  display: flex;
+  list-style: none;
+  padding: 10px;
+  margin: 0;
+}
+.statsitem {
+  display: flex;
+  flex-direction: column;
+  width: 100px;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+.quantity {
+  /* width: 100px; */
+  /* text-align: center; */
+  font-weight: 700;
+}
